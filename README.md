@@ -38,7 +38,7 @@ python3 server.py --root /opt/minisyncdav
 默认监听：
 
 ```text
-0.0.0.0:8080
+0.0.0.0:48111
 ```
 
 启动时会自动显示本机局域网地址。
@@ -47,10 +47,10 @@ python3 server.py --root /opt/minisyncdav
 
 ```text
 管理：
-http://服务器IP:8080/_admin
+http://服务器IP:48111/_admin
 
 注册：
-http://服务器IP:8080/_register
+http://服务器IP:48111/_register
 ```
 
 默认管理员：
@@ -90,14 +90,14 @@ MiniSyncDAV_Data/
 端口：
 
 ```text
-8080
+48111
 ```
 
 那么用户填写：
 
 ```text
 Server URL:
-http://192.168.15.100:8080
+http://192.168.15.100:48111
 
 User:
 user01
